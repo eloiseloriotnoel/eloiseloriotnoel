@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livres - Éloïse Loriot-Noël</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Éloïse Loriot-Noël</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="livres.html">Livres</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="livres">
+            <h2>Livres d'artiste</h2>
+            <div class="livres-liste">
+                <div class="livre-item">
+                    <h3>Titre du livre 1</h3>
+                    <p>Brève description du livre 1. Thèmes abordés, techniques utilisées, etc.</p>
+                    <div class="livre-images">
+                        <img src="livres/livre1/image1_mini.jpg" alt="Image du livre 1">
+                        </div>
+                </div>
+                <div class="livre-item">
+                    <h3>Titre du livre 2</h3>
+                    <p>Brève description du livre 2.</p>
+                    <div class="livre-images">
+                        <img src="livres/livre2/image1_mini.jpg" alt="Image du livre 2">
+                        <img src="livres/livre2/image2_mini.jpg" alt="Image du livre 2">
+                    </div>
+                </div>
+                </div>
+        </section>
+    </main>
+
+</body>
+</html>
