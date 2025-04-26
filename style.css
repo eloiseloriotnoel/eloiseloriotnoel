@@ -1,0 +1,209 @@
+/* Styles généraux */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 60px; /* Pour éviter que le contenu ne soit caché par l'en-tête fixe */
+    background-color: #f4f8f4; /* Blanc cassé léger */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #558b2f; /* Vert sauge */
+}
+
+a {
+    color: #8bc34a; /* Vert menthe */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* En-tête fixe */
+header {
+    background-color: #f4f8f4;
+    color: #558b2f;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dcedc8;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    color: #558b2f;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Page d'accueil */
+#accueil {
+    text-align: center;
+}
+
+.accueil-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accueil-content img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Portfolio */
+#portfolio .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.oeuvre-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.oeuvre-item a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+.oeuvre-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.oeuvre-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Page Actualités */
+#actualites .actualites-liste {
+    list-style: none;
+    padding: 0;
+}
+
+#actualites .actualites-liste li {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#actualites .actualites-liste li:last-child {
+    border-bottom: none;
+}
+
+#actualites .actualites-liste h3 {
+    margin-top: 0;
+}
+
+/* Page Livres */
+#livres .livres-liste {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.livre-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.livre-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.livre-item .livre-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.livre-item .livre-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Style spécifique aux pages d'œuvre (à créer dans oeuvre.css dans chaque sous-dossier d'œuvre) */
+.oeuvre-page .oeuvre-details {
+    margin-bottom: 30px;
+}
+
+.oeuvre-page .oeuvre-details h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.oeuvre-page .oeuvre-details .description {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.oeuvre-page .oeuvre-details .oeuvre-galerie {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.oeuvre-page .oeuvre-details .oeuvre-galerie img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.oeuvre-page p a {
+    font-weight: bold;
+}
