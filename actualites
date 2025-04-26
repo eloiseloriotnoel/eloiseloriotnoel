@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualités - Éloïse Loriot-Noël</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Éloïse Loriot-Noël</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="livres.html">Livres</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="actualites">
+            <h2>Actualités</h2>
+            <ul class="actualites-liste">
+                <li>
+                    <h3>Projet en cours : Nom du projet 1</h3>
+                    <p>Description du projet en cours. Détails sur l'avancement, les objectifs, etc.</p>
+                </li>
+                <li>
+                    <h3>Exposition : Titre de l'exposition</h3>
+                    <p>Date et lieu de l'exposition. <a href="#">Lien vers l'événement</a> (si applicable).</p>
+                </li>
+                </ul>
+        </section>
+    </main>
+
+</body>
+</html>
