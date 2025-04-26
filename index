@@ -1,1 +1,34 @@
-h
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éloïse Lorio-Noël</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Éloïse Lorio-Noël</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="livres.html">Livres</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="accueil">
+            <h2>Accueil</h2>
+            <div class="accueil-content">
+                <img src="assets/photo_artiste.jpg" alt="Photo de l'artiste">
+                <p>Brève description artistique de l'artiste. Quelques phrases ici pour présenter votre démarche, vos inspirations, ou votre vision artistique. Vous pouvez développer un peu votre parcours et les thèmes que vous explorez dans votre travail.</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
