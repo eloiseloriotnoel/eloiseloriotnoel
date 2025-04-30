@@ -16,6 +16,7 @@ body {
 
 h1, h2, h3 {
     color: #558b2f; /* Vert sauge */
+    font-family: "Courier New", monospace;
 }
 
 a {
