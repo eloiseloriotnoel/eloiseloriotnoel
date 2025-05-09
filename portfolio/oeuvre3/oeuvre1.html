@@ -1,36 +1,33 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titre de l'œuvre 1 - Éloïse Loriot-Noël</title>
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="oeuvre.css"> </head>
-<body>
+/* Styles spécifiques aux pages d'œuvre */
+.oeuvre-page .oeuvre-details {
+    margin-bottom: 30px;
+}
 
-    <header>
-        <h1>Éloïse Loriot-Noël</h1>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Accueil</a></li>
-                <li><a href="../../portfolio.html">Projets de création</a></li>
-                <li><a href="../../actualites.html">Actualités</a></li>
-                <li><a href="../../livres.html">Livres d'artiste</a></li>
-            </ul>
-        </nav>
-    </header>
+.oeuvre-page .oeuvre-details h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
 
-    <main class="container oeuvre-page">
-        <section class="oeuvre-details">
-            <h2>Titre de l'œuvre 1</h2>
-            <p class="description">Description détaillée de l'œuvre. Parlez de sa création, des matériaux utilisés, de l'inspiration, du contexte, etc. Soyez précis et engageant.</p>
-            <div class="oeuvre-galerie">
-                <img src="image1_grande.jpg" alt="Image 1 de l'œuvre">
-                <img src="image2_grande.jpg" alt="Image 2 de l'œuvre">
-                </div>
-        </section>
-        <p><a href="../../portfolio.html">Retour au portfolio</a></p>
-    </main>
+.oeuvre-page .oeuvre-details .description {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+}
 
-</body>
-</html>
+.oeuvre-page .oeuvre-details .oeuvre-galerie {
+    display: flex; /* Utilisation de flexbox pour l'affichage en ligne */
+    flex-direction: column; /* Empilement vertical des images */
+    gap: 20px; /* Espacement entre les images */
+}
+
+.oeuvre-page .oeuvre-details .oeuvre-galerie img {
+    width: 100%; /* Les images prennent toute la largeur disponible */
+    height: auto; /* La hauteur s'ajuste proportionnellement */
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.oeuvre-page p a {
+    font-weight: bold;
+}
