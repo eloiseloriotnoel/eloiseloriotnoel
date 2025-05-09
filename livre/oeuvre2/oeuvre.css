@@ -1,0 +1,32 @@
+/* Styles spécifiques aux pages d'œuvre */
+.oeuvre-page .oeuvre-details {
+    margin-bottom: 30px;
+}
+
+.oeuvre-page .oeuvre-details h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.oeuvre-page .oeuvre-details .description {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.oeuvre-page .oeuvre-details .oeuvre-galerie {
+    display: flex; /* Utilisation de flexbox pour l'affichage en ligne */
+    flex-direction: column; /* Empilement vertical des images */
+    gap: 20px; /* Espacement entre les images */
+}
+
+.oeuvre-page .oeuvre-details .oeuvre-galerie img {
+    width: 100%; /* Les images prennent toute la largeur disponible */
+    height: auto; /* La hauteur s'ajuste proportionnellement */
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.oeuvre-page p a {
+    font-weight: bold;
+}
