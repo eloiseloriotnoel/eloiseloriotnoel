@@ -12,6 +12,7 @@
 .oeuvre-page .oeuvre-details .description {
     line-height: 1.7;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .oeuvre-page .oeuvre-details .oeuvre-galerie {
