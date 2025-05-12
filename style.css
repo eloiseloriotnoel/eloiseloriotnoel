@@ -231,3 +231,24 @@ header nav ul li a:hover {
 .oeuvre-page p a {
     font-weight: bold;
 }
+
+footer {
+    position: fixed;
+    bottom: 10px; /* Distance depuis le bas de l'écran */
+    left: 10px; /* Distance depuis la gauche de l'écran */
+    z-index: 100; /* S'assure que les liens sont au-dessus des autres éléments */
+    /* background-color: rgba(244, 248, 244, 0.8); /* Retirez ou commentez le fond si vous ne le souhaitez pas */
+    padding: 10px; /* Conservez le padding pour l'espace autour des icônes */
+    border-radius: 5px; /* Conservez l'arrondi si vous le souhaitez */
+}
+
+.social-links {
+    display: flex;
+    gap: 10px; /* Augmente l'espacement entre les icônes */
+    align-items: center; /* Alignement vertical des icônes */
+    margin-left: 10px; /* Ajoute une marge à gauche pour l'éloigner du bord */
+}
+
+.social-links a:hover {
+    opacity: 0.7; /* Léger effet de transparence au survol */
+}
