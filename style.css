@@ -14,9 +14,16 @@ body {
     padding: 20px;
 }
 
+@font-face {
+    font-family: "C059"; /* Le nom que vous utiliserez dans vos règles CSS */
+    src: url('fonts/C059-BdIta.ttf') format('ttf'); /* Chemin vers votre fichier de police */
+    font-weight: normal; /* Le style de la police (normal, bold, etc.) */
+    font-style: normal; /* L'inclinaison de la police (normal, italic) */
+}
+
 h1, h2, h3 {
     color: #558b2f; /* Vert sauge */
-    font-family: "New Century Schoolbook", serif;
+    font-family: "C059", serif;
 }
 
 a {
