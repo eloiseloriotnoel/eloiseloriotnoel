@@ -16,7 +16,7 @@ body {
 
 @font-face {
     font-family: "C059"; /* Le nom que vous utiliserez dans vos règles CSS */
-    src: url('fonts/C059-BdIta.ttf') format('truetype'); /* Chemin vers votre fichier de police */
+    src: url('fonts/C059-Roman.ttf') format('truetype'); /* Chemin vers votre fichier de police */
     font-weight: normal; /* Le style de la police (normal, bold, etc.) */
     font-style: normal; /* L'inclinaison de la police (normal, italic) */
 }
