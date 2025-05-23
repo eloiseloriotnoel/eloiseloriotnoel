@@ -247,8 +247,8 @@ footer {
     left: 0; /* Aligne le footer sur le bord gauche de l'écran */
     z-index: 100; /* S'assure que les liens sont au-dessus des autres éléments */
     background-color: #f4f8f4; /* La couleur de fond de votre site */
-    padding: 1px 0; /* Padding vertical pour les icônes, pas de padding horizontal ici */
-    border-radius: 4px; /* Supprime l'arrondi si vous voulez une bande qui va au bord */
+    padding: 3px 0 3px 0; /* Padding vertical pour les icônes, pas de padding horizontal ici */
+    border-radius: 6px; /* Supprime l'arrondi si vous voulez une bande qui va au bord */
 }
 
 .social-links {
@@ -256,7 +256,7 @@ footer {
     gap: 10px; /* Espace entre les icônes */
     align-items: center; /* Alignement vertical des icônes */
     margin-left: 6px; /* Marge pour éloigner les icônes du bord gauche de la bande */
-    padding-right: 1px; /* Padding à droite pour avoir de l'espace après la dernière icône */
+    padding-right: 3px; /* Padding à droite pour avoir de l'espace après la dernière icône */
     width: fit-content;
 }
 
