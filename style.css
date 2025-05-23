@@ -249,7 +249,6 @@ footer {
     background-color: #f4f8f4; /* La couleur de fond de votre site */
     padding: 1px 0; /* Padding vertical pour les icônes, pas de padding horizontal ici */
     border-radius: 4px; /* Supprime l'arrondi si vous voulez une bande qui va au bord */
-    width: fit-content;
 }
 
 .social-links {
@@ -258,6 +257,7 @@ footer {
     align-items: center; /* Alignement vertical des icônes */
     margin-left: 6px; /* Marge pour éloigner les icônes du bord gauche de la bande */
     padding-right: 1px; /* Padding à droite pour avoir de l'espace après la dernière icône */
+    width: fit-content;
 
 .social-links a:hover {
     opacity: 0.7; /* Léger effet de transparence au survol */
@@ -333,22 +333,5 @@ footer {
 
     .accueil-content p, .credit-photo {
         max-width: 95%; /* Laisse un peu plus de marge pour le texte d'accueil et le crédit photo */
-    }
-
-    /* Ajustements pour les icônes sociales en bas à gauche */
-    footer {
-        bottom: 10px;
-        left: 10px;
-        padding: 8px;
-    }
-
-    .social-links {
-        gap: 10px;
-        margin-left: 10px;
-    }
-
-    .social-links img {
-        width: 25px;
-        height: 25px;
     }
 }
