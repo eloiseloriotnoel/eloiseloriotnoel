@@ -258,6 +258,7 @@ footer {
     margin-left: 6px; /* Marge pour éloigner les icônes du bord gauche de la bande */
     padding-right: 1px; /* Padding à droite pour avoir de l'espace après la dernière icône */
     width: fit-content;
+}
 
 .social-links a:hover {
     opacity: 0.7; /* Léger effet de transparence au survol */
