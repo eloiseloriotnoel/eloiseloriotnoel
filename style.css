@@ -330,7 +330,7 @@ footer {
     }
 
     .accueil-content img {
-        max-width: 95%; /* Laisse un peu plus de marge pour l'image d'accueil */
+        max-width: 100%; /* Laisse un peu plus de marge pour l'image d'accueil */
     }
 
     .accueil-content p, .credit-photo {
