@@ -244,18 +244,23 @@ header nav ul li a:hover {
 footer {
     position: fixed;
     bottom: 10px; /* Distance depuis le bas de l'écran */
-    left: 10px; /* Distance depuis la gauche de l'écran */
+    left: 0; /* Aligne le footer sur le bord gauche de l'écran */
     z-index: 100; /* S'assure que les liens sont au-dessus des autres éléments */
-    /* background-color: rgba(244, 248, 244, 0.8); /* Retirez ou commentez le fond si vous ne le souhaitez pas */
-    padding: 10px; /* Conservez le padding pour l'espace autour des icônes */
-    border-radius: 5px; /* Conservez l'arrondi si vous le souhaitez */
+    background-color: #f4f8f4; /* La couleur de fond de votre site */
+    padding: 10px 0; /* Padding vertical pour les icônes, pas de padding horizontal ici */
+    border-radius: 0; /* Supprime l'arrondi si vous voulez une bande qui va au bord */
+    /* width: auto; max-content; ou min-content peuvent être utilisés ici pour la largeur,
+       mais flexbox sur .social-links et le padding sur .social-links le gérera mieux. */
 }
 
 .social-links {
     display: flex;
-    gap: 10px; /* Augmente l'espacement entre les icônes */
+    gap: 10px; /* Espace entre les icônes */
     align-items: center; /* Alignement vertical des icônes */
-    margin-left: 10px; /* Ajoute une marge à gauche pour l'éloigner du bord */
+    margin-left: 10px; /* Marge pour éloigner les icônes du bord gauche de la bande */
+    padding-right: 10px; /* Padding à droite pour avoir de l'espace après la dernière icône */
+    /* Calcul de la largeur nécessaire : (2 icônes * 30px) + (1 gap * 10px) + (10px marge gauche) + (10px padding droit) = 60 + 10 + 10 + 10 = 90px */
+    width: fit-content; /* S'adapte à la largeur du contenu (icônes + gap + marges/padding) */
 }
 
 .social-links a:hover {
