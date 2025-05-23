@@ -17,7 +17,7 @@ body {
 @font-face {
     font-family: "American Typewriter"; /* Le nom que vous utiliserez dans vos règles CSS */
     src: url('fonts/AmericanTypewriter.ttc') format('truetype'); /* Chemin vers votre fichier de police */
-    font-weight: 300; /* Le style de la police (normal, bold, etc.) */
+    font-weight: 100; /* Le style de la police (normal, bold, etc.) */
     font-style: normal; /* L'inclinaison de la police (normal, italic) */
 }
 
