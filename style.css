@@ -313,7 +313,7 @@ footer {
     }
 
     header nav ul li {
-        margin: 10px 0; /* Ajoute de l'espace vertical entre les onglets, retire les marges horizontales */
+        margin: 4px 0; /* Ajoute de l'espace vertical entre les onglets, retire les marges horizontales */
     }
 
     header nav ul li a {
