@@ -79,7 +79,8 @@ header nav ul li:first-child {
 
 header nav ul li a {
     color: #558b2f;
-    font-weight: bold;
+    font-weight: 300;
+    font-family: "American Typewriter", monospace;
 }
 
 header nav ul li a:hover {
