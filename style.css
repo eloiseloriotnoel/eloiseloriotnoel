@@ -15,15 +15,15 @@ body {
 }
 
 @font-face {
-    font-family: "C059"; /* Le nom que vous utiliserez dans vos règles CSS */
-    src: url('fonts/C059-Roman.ttf') format('truetype'); /* Chemin vers votre fichier de police */
-    font-weight: normal; /* Le style de la police (normal, bold, etc.) */
+    font-family: "American Typewriter"; /* Le nom que vous utiliserez dans vos règles CSS */
+    src: url('fonts/AmericanTypewriter.ttc') format('truetype'); /* Chemin vers votre fichier de police */
+    font-weight: 300; /* Le style de la police (normal, bold, etc.) */
     font-style: normal; /* L'inclinaison de la police (normal, italic) */
 }
 
 h1, h2, h3 {
-    color: #333; /* Vert sauge */
-    font-family: "sans-serif", monospace;
+    color: #558b2f; /* Vert sauge */
+    font-family: "American Typewriter", monospace;
 }
 
 a {
