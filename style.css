@@ -266,3 +266,88 @@ footer {
     width: 30px; /* Conservez la taille de vos icônes */
     height: 30px; /* Conservez la taille de vos icônes */
 }
+
+
+
+
+
+
+
+
+/* Media Queries pour la version mobile */
+@media screen and (max-width: 768px) {
+    /* Ajustement du padding du body pour le header non fixe */
+    body {
+        padding-top: 0; /* Supprime le padding du haut puisque le header ne sera plus fixe */
+    }
+
+    /* Styles pour l'en-tête (Header) en version mobile */
+    header {
+        position: static; /* Le header défile avec la page (n'est plus fixe) */
+        flex-direction: column; /* Empile les éléments (titre et nav) verticalement */
+        align-items: center; /* Centre le titre et la navigation horizontalement */
+        padding: 15px 10px; /* Ajuste le padding pour les petits écrans */
+        border-bottom: 1px solid #dcedc8; /* Optionnel: Conserver ou retirer le bord inférieur */
+        /* Vous pouvez retirer le background-color si vous voulez qu'il se fonde plus dans le body */
+        /* background-color: #f4f8f4; */
+    }
+
+    header h1 {
+        text-align: center; /* Centre le titre principal "Éloïse Lorio-Noël" */
+        margin-bottom: 15px; /* Ajoute un espace sous le titre */
+        font-size: 1.8em; /* Ajustez la taille si le titre est trop grand/petit sur mobile */
+    }
+
+    /* Styles pour la navigation (Nav) en version mobile */
+    header nav {
+        width: 100%; /* S'assure que la nav prend toute la largeur disponible pour centrer son contenu */
+        text-align: center; /* Pour centrer le texte si les flexbox ne suffisent pas toujours */
+    }
+
+    header nav ul {
+        flex-direction: column; /* Empile les titres d'onglets verticalement */
+        align-items: center; /* Centre les titres d'onglets horizontalement */
+        padding: 0; /* Réinitialise le padding horizontal */
+        margin: 0 auto; /* Centre la liste elle-même si nécessaire */
+        width: fit-content; /* Permet à la liste de s'adapter à son contenu et d'être centrée */
+    }
+
+    header nav ul li {
+        margin: 10px 0; /* Ajoute de l'espace vertical entre les onglets, retire les marges horizontales */
+    }
+
+    header nav ul li a {
+        font-size: 1.1em; /* Ajuste la taille de la police des onglets pour une meilleure lisibilité mobile */
+        padding: 8px 15px; /* Augmente le padding des liens pour faciliter le tap sur mobile */
+    }
+
+    /* Ajustements généraux pour les petits écrans */
+    .container {
+        padding: 15px; /* Réduit le padding du contenu principal sur mobile */
+    }
+
+    .accueil-content img {
+        max-width: 95%; /* Laisse un peu plus de marge pour l'image d'accueil */
+    }
+
+    .accueil-content p, .credit-photo {
+        max-width: 95%; /* Laisse un peu plus de marge pour le texte d'accueil et le crédit photo */
+    }
+
+    /* Ajustements pour les icônes sociales en bas à gauche */
+    footer {
+        bottom: 10px;
+        left: 10px;
+        padding: 8px;
+    }
+
+    .social-links {
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .social-links img {
+        width: 25px;
+        height: 25px;
+    }
+}
